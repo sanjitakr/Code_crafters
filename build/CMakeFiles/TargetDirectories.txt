@@ -1,3 +1,0 @@
-/home/skumar/Documents/Code_crafters/build/CMakeFiles/collab_editor.dir
-/home/skumar/Documents/Code_crafters/build/CMakeFiles/edit_cache.dir
-/home/skumar/Documents/Code_crafters/build/CMakeFiles/rebuild_cache.dir
