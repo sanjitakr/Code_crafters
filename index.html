@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Collaborative Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Collaborative Editor</h1>
+
+<div class="toolbar">
+  <button onclick="format('bold')">Bold</button>
+  <button onclick="format('italic')">Italic</button>
+  <button onclick="format('underline')">Underline</button>
+  <select onchange="format('foreColor', this.value)">
+      <option value="">Color</option>
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+  </select>
+</div>
+
+<div id="editor" contenteditable="false"></div>
+
+<div class="status-bar">
+    <span id="wordCount">Words: 0</span>
+    <span id="status">Status: Connecting...</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
